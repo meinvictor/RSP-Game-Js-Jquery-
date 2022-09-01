@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/miniLogo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/miniLogo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script/logic.js"></script>
     <title>Best Game Ever</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1 class="won">You won</h1>
-        <h1 class="lost">You lost</h1>
-        <h1 class="draw">Draw!</h1>
+      <h1 class="won">You won</h1>
+      <h1 class="lost">You lost</h1>
+      <h1 class="draw">Draw!</h1>
     </header>
 
-    <div id="choose" class="animate__animated animate__backInDown">START THE GAME</div>
-    
-    <main class="animate__animated animate__zoomIn">
-        <div id="game">
-        
-            <div class="player1"></div>
-            <div class="computer"></div>
+    <div id="choose" class="animate__animated animate__backInDown">
+      START THE GAME
+    </div>
 
-            <div class="buttons">
-                <button class="kam">
-                    <p>ROCK</p>
-                </button>
-                <button class="noj">
-                    <p>SCISSORS</p>
-                </button>
-                <button class="pap">
-                    <p>PAPPER</p>
-                </button>
-            </div>
+    <main class="animate__animated animate__zoomIn">
+      <div id="game">
+        <div class="player1"></div>
+        <div class="computer"></div>
+
+        <div class="buttons">
+          <button class="kam">
+            <p>ROCK</p>
+          </button>
+          <button class="noj">
+            <p>SCISSORS</p>
+          </button>
+          <button class="pap">
+            <p>PAPPER</p>
+          </button>
         </div>
+      </div>
     </main>
-    
-    <div id="user" class="animate__animated animate__slideInLeft"> </div>
+
+    <div id="user" class="animate__animated animate__slideInLeft"></div>
 
     <div id="back" class="animate__animated animate__slideInLeft">
-        <p>Reset</p>
+      <p>Reset</p>
     </div>
 
     <div id="points" class="animate__animated animate__slideInLeft">
-        <p>Your score points: <br> <span id="point"></span></p>
+      <p>
+        Your score points: <br />
+        <span id="point"></span>
+      </p>
     </div>
 
     <audio id="s1" src="sound/click.mp3"></audio>
-
-</body>
-
+  </body>
 </html>
